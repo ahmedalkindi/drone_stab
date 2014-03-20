@@ -42,6 +42,9 @@ int		set_motor_stop(drone_motor *motor);
 int 	init_quad_motor();
 int 	set_cmd_quad_motor(int c_up, int c_rotx, int c_roty, int c_rotz, int c_stop);
 void 	interpret_cmd();
+void 	interpret_cmd_rotx();
+void 	interpret_cmd_roty();
+void 	interpret_cmd_rotz();
 void 	normalize_cmd();
 int 	through_DC_cmd();
 
